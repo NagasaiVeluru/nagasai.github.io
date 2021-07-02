@@ -1,0 +1,96 @@
+/* https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity */
+
+
+.DM1 {
+  position: relative;
+}
+
+.DM1:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url('../Project/assets/data_management_shutterstock_phipatbig.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.DMcontent {
+  position: relative;
+}
+
+
+.TD1 {
+  position: relative;
+}
+
+.TD1:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url('../Project/assets/fd.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.TDcontent {
+  position: relative;
+}
+
+.LD1 {
+  position: relative;
+}
+
+.LD1:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background-image: url('../Project/assets/ld.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.LDcontent {
+  position: relative;
+}
+
+
+.HD1 {
+  position: relative;
+}
+
+.HD1:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-image: url('../Project/assets/hd.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.HDcontent {
+  position: relative;
+}
